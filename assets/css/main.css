@@ -1,0 +1,111 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/base\/_reset\.scss}line{font-family:\000031}}
+body {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/base\/_typography\.scss}line{font-family:\000031}}
+body {
+  font-family: 'Raleway', 'Open Sans', sans-serif;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/base\/_typography\.scss}line{font-family:\000035}}
+.menu__item {
+  font-size: 14px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_navigation\.scss}line{font-family:\000031}}
+.menu__barra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  padding: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_navigation\.scss}line{font-family:\0000310}}
+.menu__lista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex: 2 2 2;
+      flex: 2 2 2;
+  list-style: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_navigation\.scss}line{font-family:\0000318}}
+.menu__item {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_navigation\.scss}line{font-family:\0000323}}
+.menu__item-logo {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_header\.scss}line{font-family:\000031}}
+.cls-1 {
+  fill: #2ab7ca;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_header\.scss}line{font-family:\000035}}
+.cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-9 {
+  fill-rule: evenodd;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_header\.scss}line{font-family:\000039}}
+.cls-2 {
+  fill: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000313}}
+.cls-3 {
+  fill: #cf4737;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000317}}
+.cls-4, .cls-8 {
+  fill: #3e8cc7;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000321}}
+.cls-5 {
+  fill: #fec9a3;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000325}}
+.cls-6 {
+  fill: #75462e;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000329}}
+.cls-7 {
+  fill: #de4c3c;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000333}}
+.cls-9 {
+  fill: #ee9480;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,25 @@
+.menu__barra {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 60px;
+    padding: 20px;
+}
+
+.menu__lista {
+    display: flex;
+    justify-content: end;
+    flex-grow: 1;
+    flex: 2 2 2;
+    list-style: none;
+}
+
+.menu__item {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.menu__item-logo {
+    justify-content: start;
+}
