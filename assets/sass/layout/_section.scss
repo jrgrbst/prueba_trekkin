@@ -15,10 +15,13 @@
 
 .desc {
     text-align: center;
-}
-
-.desc__graph {
+    &__graph {
     width: 450px;
+    }
+    &__text {
+    width: 450px;
+    text-align: left;
+    }
 }
 
 .cards {
@@ -28,10 +31,15 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 250px;
+    &__title {
+        text-align: center;
+        color: #ffffff;
+    &__precios {
+        background-color: white;
+        width: 350px;
+        height: 500px;
+    }
 }
 
-.card__precios {
-    background-color: white;
-    width: 350px;
-    height: 500px;
+
 }
