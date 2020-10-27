@@ -1,0 +1,37 @@
+.graph {
+    fill-rule: evenodd;
+    &__1 {
+        fill:#ee9480;
+    }
+    &__2 {
+        fill:#2ab7ca;
+    }
+    &__3 {
+        stroke:#979797;
+        stroke-linecap:square;
+        stroke-width:5px;
+    }
+}
+
+.desc {
+    text-align: center;
+}
+
+.desc__graph {
+    width: 450px;
+}
+
+.cards {
+    background-image: url(/assets/images/bg-price.svg);
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 250px;
+}
+
+.card__precios {
+    background-color: white;
+    width: 350px;
+    height: 500px;
+}
