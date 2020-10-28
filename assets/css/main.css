@@ -1,3 +1,45 @@
+@-webkit-keyframes animacion-graph {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+@keyframes animacion-graph {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/abstracts\/_animations\.scss}line{font-family:\000036}}
+input:hover {
+  background-color: #b1e4eb;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/abstracts\/_animations\.scss}line{font-family:\0000310}}
+input:focus {
+  background-color: #bababa;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/abstracts\/_animations\.scss}line{font-family:\0000314}}
+#graph {
+  -webkit-animation-name: animacion-graph;
+          animation-name: animacion-graph;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/abstracts\/_animations\.scss}line{font-family:\0000320}}
+.card__precios:hover {
+  -webkit-box-shadow: 10px 10px 40px #726f73;
+          box-shadow: 10px 10px 40px #726f73;
+}
+
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/base\/_reset\.scss}line{font-family:\000031}}
 body {
   margin: 0px;
@@ -46,7 +88,23 @@ p {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/base\/_typography\.scss}line{font-family:\0000323}}
+.card__precios p {
+  font-size: 40px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/base\/_typography\.scss}line{font-family:\0000328}}
+.card__list__1 {
+  line-height: 2;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/base\/_typography\.scss}line{font-family:\0000332}}
+.card__list__2 {
+  line-height: 2;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/base\/_typography\.scss}line{font-family:\0000336}}
 footer {
+  font-size: 25px;
   color: #ffffff;
 }
 
@@ -64,7 +122,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0 50px;
+  margin: 0 150px;
   height: 60px;
   padding: 20px;
 }
@@ -163,49 +221,50 @@ footer {
   background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 100px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_header\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_header\.scss}line{font-family:\000039}}
 .cls-1 {
   fill: #2ab7ca;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000313}}
 .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-9 {
   fill-rule: evenodd;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000317}}
 .cls-2 {
   fill: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000321}}
 .cls-3 {
   fill: #cf4737;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000325}}
 .cls-4, .cls-8 {
   fill: #3e8cc7;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000329}}
 .cls-5 {
   fill: #fec9a3;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000333}}
 .cls-6 {
   fill: #75462e;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000337}}
 .cls-7 {
   fill: #de4c3c;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_header\.scss}line{font-family:\0000341}}
 .cls-9 {
   fill: #ee9480;
 }
@@ -231,43 +290,109 @@ footer {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_section\.scss}line{font-family:\0000316}}
 .desc {
+  padding: 100px 0;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_section\.scss}line{font-family:\0000318}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_section\.scss}line{font-family:\0000319}}
 .desc__graph {
   width: 450px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_section\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_section\.scss}line{font-family:\0000322}}
 .desc__text {
   width: 450px;
   text-align: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_section\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_section\.scss}line{font-family:\0000328}}
 .cards {
   background-image: url(/assets/images/bg-price.svg);
   background-position-x: right;
   background-position-y: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 250px;
+  padding: 150px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_section\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_section\.scss}line{font-family:\0000335}}
 .cards__title {
   text-align: center;
   color: #ffffff;
+  padding-bottom: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_section\.scss}line{font-family:\0000337}}
-.cards__title__precios {
-  background-color: white;
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_section\.scss}line{font-family:\0000342}}
+.card__precios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff;
   width: 350px;
-  height: 500px;
+  height: 550px;
+  padding: 10px 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_section\.scss}line{font-family:\0000350}}
+.card__precios__button {
+  width: 100%;
+  padding: 0 50px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_section\.scss}line{font-family:\0000356}}
+.card__list__1 {
+  border-top: 2px solid #bababa;
+  border-bottom: 2px solid #bababa;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 120px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_section\.scss}line{font-family:\0000364}}
+.card__list__2 {
+  border-top: 2px solid #bababa;
+  border-bottom: 2px solid #bababa;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_forms\.scss}line{font-family:\000031}}
+input {
+  margin-left: 20px;
+  background-color: #2ab7ca;
+  color: #ffffff;
+  border: 0;
+  padding: 10px 30px;
+  font-family: 'Raleway';
+  font-weight: 700;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_forms\.scss}line{font-family:\0000311}}
+.button__XL {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  width: 100%;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/Users\/jrubi\/Desktop\/Curso\%20Front\%20End\/Clase_17\/startup_treek__in\/assets\/sass\/layout\/_footer\.scss}line{font-family:\000031}}
 footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: #221D23;
-  padding: 20px;
+  padding: 30px 100px;
 }
 
 /*# sourceMappingURL=main.css.map */

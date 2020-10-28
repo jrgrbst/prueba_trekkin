@@ -1,0 +1,22 @@
+@keyframes animacion-graph {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+
+input:hover {
+    background-color: #b1e4eb;
+}
+
+input:focus {
+    background-color: #bababa;
+}
+
+#graph {
+    animation-name: animacion-graph;
+    animation-duration: 6s;
+    animation-timing-function: ease-in;
+}
+
+.card__precios:hover {
+    box-shadow: 10px 10px 40px #726f73;
+}
