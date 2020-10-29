@@ -1,31 +1,112 @@
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { 
-    .header {
-        height: 100vh;
-        background-position: center;
-        background-size: 200%;
-        &__texto {
-            width: 200px;
-        }
+    .menu__barra > ul li {
+        visibility: hidden;
     }
- }
+
+    .header__texto {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: right;
+    }
+
+    .desc {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1 1 1;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .cards {
+        grid-template-columns: 450px;
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+        align-content: center;
+    }
+
+    footer {
+        flex-direction: column;
+        
+    }
+}
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) { 
-    
+    .menu__barra > ul li {
+        visibility: hidden;
+    }
  }
+
+ .header__texto {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: right;
+}
+
+.desc {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1 1 1;
+    justify-content: center;
+    align-content: center;
+}
+
+.cards {
+    grid-template-columns: 450px;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    align-content: center;
+}
+
+footer {
+    flex-direction: column;
+    
+}
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) { 
-    
+    .menu__barra > ul li {
+        visibility: hidden;
+    }
  }
+
+ .header__texto {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: right;
+}
+
+.desc {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1 1 1;
+    justify-content: center;
+    align-content: center;
+}
+
+.cards {
+    grid-template-columns: 450px;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    align-content: center;
+}
+
+footer {
+    flex-direction: column;
+    
+}
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) { 
-    
+    #menu__burguer {
+        display: none;
+    }
  }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
-    
+    #menu__burguer {
+        display: none;
+    }
  }

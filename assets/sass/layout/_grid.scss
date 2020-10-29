@@ -1,12 +1,11 @@
 .header {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
     height: 100vh;
     &__texto {
         box-sizing: border-box;
         width: 500px;
-        padding-top: 100px;
-        margin-left: 50px;
     }
 }
 

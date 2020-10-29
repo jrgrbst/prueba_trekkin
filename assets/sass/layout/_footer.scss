@@ -5,3 +5,11 @@ footer {
     background-color: #221D23;
     padding: 30px 100px;
 }
+
+.footer__lista {
+    display: flex;
+    justify-content: start;
+    flex-grow: 1;
+    flex: 2 2 2;
+    list-style: none;
+}
